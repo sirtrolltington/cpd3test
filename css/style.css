@@ -8,7 +8,7 @@
 	body{
 		font-size: 20px;
 		text-align: center;
-		background-color:#2A448A;
+		background-color:#223C33;
 		font-family: 'Roboto', 'Arial', sans-serif;
 	}
 
@@ -34,7 +34,7 @@
 	/* Header */
 	header{
 		text-align: center;
-		background-color: #223C33;
+		background-color: #2448AA;
 	}
 
 	/* Header Hover Effect */
@@ -50,8 +50,28 @@
 	}
 
 	/* Headers */
-	h1, h2, h3{
-		color: #d80869;
+	h1{
+		color: #FFFFFF;
+		font-weight: bold;
+		font-size: 25px;
+		padding-top: 20px;
+		padding-bottom: 15px;
+		font-family: Helvetica, 'Arial', sans-serif;
+		text-shadow: 1px 1px 2px #FFFFFF, 0 0 25px #000000;
+	}
+
+	h2{
+		color: #FFFFFF;
+		font-weight: bold;
+		font-size: 25px;
+		padding-top: 20px;
+		padding-bottom: 15px;
+		font-family: Helvetica, 'Arial', sans-serif;
+		text-shadow: 1px 1px 2px #FFFFFF, 0 0 25px #000000;
+	}
+
+	h3{
+		color: black;
 		font-weight: bold;
 		font-size: 25px;
 		padding-top: 20px;
@@ -68,7 +88,7 @@
 
 	/* Summary Paragraph */
 	.summary{
-		color: #0000ff;
+		color: #FFFFFF;
 		padding: 30px;
 	}
 
@@ -111,6 +131,10 @@
 		margin-left: auto; 
 		margin-right: auto; 
 		width: 50%; 
+	}
+
+	p{ 
+		color: #FFFFFF; 
 	}
 	
 
