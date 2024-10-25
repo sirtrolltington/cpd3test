@@ -23,7 +23,14 @@
 	nav a:hover{
 		font-weight: bolder;
 		text-transform: uppercase;
-		text-decoration: line-through;
+	}
+
+	a { 
+		color: white; 
+	}
+
+	a:visited { 
+		color: red; 
 	}
 
 	/* Navigation List Items */
