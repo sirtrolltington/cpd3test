@@ -112,6 +112,7 @@
 	/* Dictionary List */
 	dl{
 		padding-bottom: 20px;
+		color: #FFFFFF; 
 	}
 
 	/* Footer */
@@ -130,15 +131,12 @@
 		margin-right: auto; 
 	}
 
-	dl { 
-		color: #FFFFFF; 
+	figure { 
+		text-align: center; 
 	}
 
-	figure { 
-		display: block; 
-		margin-left: auto; 
-		margin-right: auto; 
-		width: 50%; 
+	figcaption { 
+		color: #FFFFFF; 
 	}
 
 	p{ 
