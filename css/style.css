@@ -97,7 +97,7 @@
 		font-size: 30px;
 		padding-left: 60px;
 		padding-bottom: 30px;
-		background-color: #BCB8B5;
+		background-color: #d3d3d3;
 	}
 
 	/* Athlete Images */
@@ -124,6 +124,7 @@
 		border-spacing: 2px; 
 		margin-left: auto; 
 		margin-right: auto; 
+		text-decoration-color: #FFFFFF; 
 	}
 
 	figure { 
