@@ -1,0 +1,111 @@
+/*Mobile Phone Size*/
+@media screen and (min-width: 400px){
+
+	html{
+		scroll-behavior: smooth;
+	}
+
+	body{
+		font-size: 20px;
+		text-align: center;
+		background-color: #d3d3d3;
+		font-family: 'Roboto', 'Arial', sans-serif;
+	}
+
+	/* Navigation */
+	nav{
+		color: #FFFFFF;
+		text-decoration: underline;
+		background-color: #00ffff;
+	}
+
+	/* Navigation Hover */
+	nav a:hover{
+		font-weight: bolder;
+		text-transform: uppercase;
+		text-decoration: line-through;
+	}
+
+	/* Navigation List Items */
+	nav li{
+		padding: 10px 19px 8px 6px;
+	}
+
+	/* Header */
+	header{
+		text-align: center;
+		background-color: #b8860b;
+	}
+
+	/* Header Hover Effect */
+	header a:hover{
+		text-align: left;
+		color: #ff0000;
+		background-color: #FFFFFF;
+	}
+
+	/* Focus Elements */
+	*:focus{
+		border: 2px solid #ff0000;
+	}
+
+	/* Headers */
+	h1, h2, h3{
+		color: #d80869;
+		font-weight: bold;
+		font-size: 25px;
+		padding-top: 20px;
+		padding-bottom: 15px;
+		font-family: Helvetica, 'Arial', sans-serif;
+		text-shadow: 1px 1px 2px #FFFFFF, 0 0 25px #000000;
+	}
+
+	/* Header Hover Effects */
+	h1:hover, h2:hover, h3:hover{
+		transform: scale(1.2);
+		-webkit-transform: scale(1.2);
+	}
+
+	/* Summary Paragraph */
+	.summary{
+		color: #0000ff;
+		padding: 30px;
+	}
+
+	/* Team Results */
+	#team-results{
+		font-size: 30px;
+		padding-left: 60px;
+		padding-bottom: 30px;
+		background-color: #FFFFFF;
+	}
+
+	/* Athlete Images */
+	img{
+		padding-bottom: 20px;
+	}
+
+	/* Dictionary List */
+	dl{
+		padding-bottom: 20px;
+	}
+
+	/* Footer */
+	footer{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: #7fffd4;
+	}
+
+@media screen and (prefers-reduced-motion: reduce){
+	
+	html{
+		scroll-behavior: auto; 
+	}
+
+	nav a:hover, header a:hover, h1:hover, h2:hover, h3:hover{
+		transition: none;
+		text-transform: none;
+	}
+}
+}
