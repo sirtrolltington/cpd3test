@@ -103,6 +103,10 @@
 	/* Athlete Images */
 	img{
 		padding-bottom: 20px;
+		display: block; 
+		margin-left: auto; 
+		margin-right: auto; 
+		width: 50%; 
 	}
 
 	/* Dictionary List */
@@ -124,7 +128,10 @@
 		border-spacing: 2px; 
 		margin-left: auto; 
 		margin-right: auto; 
-		text-decoration-color: #FFFFFF; 
+	}
+
+	th, td { 
+		color: #FFFFFF; 
 	}
 
 	figure { 
