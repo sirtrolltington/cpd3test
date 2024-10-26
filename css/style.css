@@ -172,6 +172,10 @@
 	p{ 
 		color: #FFFFFF; 
 	}
+
+	p.footertext{ 
+		color: black; 
+	}
 	
 
 @media screen and (prefers-reduced-motion: reduce){
