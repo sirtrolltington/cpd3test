@@ -14,7 +14,7 @@
 
 	/* Navigation */
 	nav{
-		color: #FFFFFF;
+		color: #2448AA;
 		text-decoration: underline;
 		background-color: #d3d3d3;
 	}
@@ -25,6 +25,12 @@
 		text-transform: uppercase;
 	}
 
+	/*Different hyperlink text color for web link in body*/ 
+	.web{ 
+		color: white; 
+		text-decoration: underline; 
+	}
+	
 	a { 
 		color: white; 
 	}
