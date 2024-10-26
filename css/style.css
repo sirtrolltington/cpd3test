@@ -149,6 +149,13 @@
 		color: white; 
 	}
 
+	th {
+		position: sticky; 
+		top: 0; 
+		z-index: 10; 
+		padding: 10px; 
+	}
+
 	tr { 
 		color: white; 
 	}
