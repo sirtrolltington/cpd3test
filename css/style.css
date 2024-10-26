@@ -26,8 +26,8 @@
 	}
 
 	/*Different hyperlink text color for web link in body*/ 
-	.web{ 
-		color: white; 
+	a.web{ 
+		color: black; 
 		text-decoration: underline; 
 	}
 
