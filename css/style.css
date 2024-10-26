@@ -31,6 +31,18 @@
 		text-decoration: underline; 
 	}
 
+	/*Animated hyperlink to meet website*/ 
+	a.animated-link{ 
+		color:white; 
+		animation-name: test; 
+		animation-duration: 5s; 
+	}
+
+	@keyframes test{
+		from {color:white;}
+		to {color: #F7D147;}
+	}
+
 	a { 
 		color: white; 
 	}
